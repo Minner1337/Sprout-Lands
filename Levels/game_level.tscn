@@ -753,3 +753,12 @@ position = Vector2(56, 6)
 
 [node name="cow" parent="." instance=ExtResource("8_nq3js")]
 position = Vector2(104, -18)
+
+[node name="cow2" parent="." instance=ExtResource("8_nq3js")]
+position = Vector2(64, 96)
+
+[node name="cow3" parent="." instance=ExtResource("8_nq3js")]
+position = Vector2(144, 16)
+
+[node name="cow4" parent="." instance=ExtResource("8_nq3js")]
+position = Vector2(0, 32)

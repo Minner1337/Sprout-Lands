@@ -21,7 +21,7 @@ func _physics_process(delta):
 	if(current_state == COW_STATE.WALK):
 		velocity = move_direction * move_speed
 	
-	move_and_slide()
+		move_and_slide()
 	
 	
 # Randomly generated a move direction
@@ -32,7 +32,7 @@ func select_new_direction():
 		randi_range(-1,1)
 	)
 	
-	if(move_direction.x < 0):
+	if(move_direction.x <= 0):
 		sprite.flip_h = true
 	elif(move_direction.x > 0):
 		sprite.flip_h = false
