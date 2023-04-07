@@ -32,7 +32,7 @@ func select_new_direction():
 		randi_range(-1,1)
 	)
 	
-	if(move_direction.x <= 0):
+	if(move_direction.x < 0):
 		sprite.flip_h = true
 	elif(move_direction.x > 0):
 		sprite.flip_h = false
