@@ -19,7 +19,7 @@ func _physics_process(_delta):
 	update_animation_parameters(input_direction)
 	
 	# Update Velocity
-	velocity = input_direction * move_speed
+	velocity = input_direction.normalized() * move_speed
 	
 	# Move and Slide funtion uses velocity of character body to move character on map
 	move_and_slide()
